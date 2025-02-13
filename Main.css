@@ -38,6 +38,50 @@ body {
 
 .GameModes {
     position: absolute;
+    display: grid;
     top: 10%;
     left: 5%;
 }
+
+.Connect {
+    position: absolute;
+    top: 12.3%;
+    left: 5%;
+}
+
+.Checkers {
+    position: absolute;
+    top: 14.6%;
+    left: 5%;
+}
+
+.Mahjong {
+    position: absolute;
+    top: 16.9%;
+    left: 5%;
+}
+
+.vertical-line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    color: rgb(90, 93, 247);
+    top: 10%;
+    position: absolute;
+    right: 10%;
+    margin-right: 10px;  /* Space between the text and vertical line */
+    font-size: 20px;     /* Adjust the font size as needed */
+  }
+  
+  .vertical-line {
+    top: 9%;
+    position: absolute;
+    right: 10%;
+    width: 1px;
+    height: 800px;        /* Adjust the height of the line */
+    background-color: rgb(90, 93, 247);  /* Color of the vertical line */
+  }
+  
