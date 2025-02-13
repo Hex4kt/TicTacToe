@@ -1,0 +1,35 @@
+body {
+    color: #000008;
+    color: #1b274d;
+    color: #48569e;
+    color: #838bfa;
+    color: #cbc6ff;
+}
+
+header {
+    color: #1b274d;
+    font-size: 48px;
+    text-align: center;
+}
+
+section {
+    color: #48569e;
+    font-size: 48px;
+}
+
+aside {
+    color: #838bfa;
+    width: 30%;
+    float: right;
+    border-left: 6px solid #48569e;
+    height: 500px;
+}
+
+form {
+    border: 1px;
+    
+}
+
+.spieler {
+    box-sizing: border-box;
+}
