@@ -12,12 +12,16 @@ header {
     text-align: center;
 }
 
-section {
+div.leftSide {
     color: #48569e;
     font-size: 48px;
 }
 
-aside {
+div.chessboard {
+    margin: 5%;
+}
+
+div.rightSide {
     color: #838bfa;
     width: 30%;
     float: right;
