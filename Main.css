@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:active {
+    color: red;
+}
+
+.GameModes {
+    position: absolute;
+    display: grid;
+    top: 10%;
+    left: 5%;
+}
+
+.Connect {
+    position: absolute;
+    top: 12.3%;
+    left: 5%;
+}
+
+.Checkers {
+    position: absolute;
+    top: 14.6%;
+    left: 5%;
+}
+
+.Mahjong {
+    position: absolute;
+    top: 16.9%;
+    left: 5%;
+}
+
+.vertical-line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    color: rgb(90, 93, 247);
+    top: 10%;
+    position: absolute;
+    right: 10%;
+    margin-right: 10px; 
+    font-size: 20px;     
+  }
+  
+  .vertical-line {
+    top: 9%;
+    position: absolute;
+    right: 10%;
+    width: 1px;
+    height: 800px;       
+    background-color: rgb(90, 93, 247);  
+  }
+  
